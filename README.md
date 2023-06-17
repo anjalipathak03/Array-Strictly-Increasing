@@ -50,3 +50,17 @@ int[] arr2 = {1, 3, 2, 4};
 
 int answer = makeArrayIncreasing(arr1, arr2);
 System.out.println("Minimum number of operations: " + answer);
+```
+
+
+Output:
+```
+Minimum number of operations: 1
+```
+
+This indicates that only one operation is needed to make the arr1 array strictly increasing.
+
+## Complexity Analysis
+The time complexity of the solution is O(n * m * log m), where n is the length of arr1 and m is the length of arr2. This is because for each element in arr1, we perform a binary search on arr2 to find the replacement value. The space complexity is O(n * m) to store the results in the memoization map.
+
+Feel free to explore the code and experiment with different inputs to understand the problem and solution better.
