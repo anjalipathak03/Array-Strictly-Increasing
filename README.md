@@ -1,6 +1,14 @@
 # Array Strictly Increasing
 
-This repository contains a solution to the "Array Strictly Increasing" problem. The problem requires finding the minimum number of operations needed to make one array strictly increasing by performing element replacements using another array.
+An array is an object containing a fixed number of values of the same type. The elements of an array are indexed, which means we can access them with numbers (called indices).
+
+We can consider an array as a numbered list of cells, each cell being a variable holding a value. In Java, the numbering starts at 0.
+
+There are primitive type arrays and object type arrays. This means we can use arrays of int, float, boolean, … But also arrays of String, Object and custom types as well.
+
+- Java offers a lot of methods to deal with arrays through the Arrays utility class. There also are utility classes to manipulate arrays in libraries such as Apache Commons or Guava.
+
+-  This repository contains a solution to the "Array Strictly Increasing" problem. The problem requires finding the minimum number of operations needed to make one array strictly increasing by performing element replacements using another array.
 
 ## Problem Description
 
